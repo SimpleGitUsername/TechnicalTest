@@ -3,9 +3,10 @@ var SpecReporter = require('jasmine-spec-reporter').SpecReporter;
 exports.config = {
   seleniumAddress: 'http://localhost:4444/wd/hub',
   specs: [
-      'SmokeTest.js'
+      //'SmokeTest.js'
       // 'todo-spec.js',
       // 'SpinTest.js'
+      'StorefrontScript.js'
   ],
 
     onPrepare: function () {

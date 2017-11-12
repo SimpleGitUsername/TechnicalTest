@@ -1,6 +1,5 @@
 exports.PageObject = function() {
 
-    let spinButton = browser.driver.findElement(by.id('spinButton'));
 
     this.spinSlot = function(){
         browser.driver.findElement(by.id('spinButton')).click();

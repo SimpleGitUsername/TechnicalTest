@@ -1,0 +1,9 @@
+Setup Protractor:
+npm install -g protractor
+webdriver-manager update
+
+Start selenium server
+webdriver-manager start
+
+Run tests:
+protractor conf.js
